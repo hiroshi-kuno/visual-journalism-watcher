@@ -9,6 +9,7 @@ export default defineConfig({
   },
   base: "./",
   build: {
+    outDir: "../docs",
     rollupOptions: {
       output: {
         entryFileNames: "js/main.js",
