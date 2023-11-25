@@ -1,1 +1,236 @@
-[{"date": "2023/11/24 15:10", "updates": [{"head": "日経電子版 速報", "media": "NIKKEI", "url": "https://www.nikkei.com/news/category/", "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span", "get_title": "日経平均大引け　続伸、173円高の3万3625円", "get_title_before": "｢育成就労｣どんな制度？　技能実習の転職制限、段階緩和", "update": true}, {"head": "NHKニュース 速報・新着一覧", "media": "NHK", "url": "https://www3.nhk.or.jp/news/catnew.html", "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em", "get_title": "大相撲九州場所 三段目 幕下経験者の大昇龍 全勝優勝", "get_title_before": "【速報中】フィギュア NHK杯 女子シングル 青木祐奈が自己最高", "update": true}]}, {"date": "2023/11/24 15:11", "updates": [{"head": "Yahoo!ニュース 速報", "media": "Yahoo!", "url": "https://news.yahoo.co.jp/flash", "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p", "get_title": "【RIZIN】木村ミノルが再検査もドーピング陽性、安保瑠輝也戦は中止「完全な状態ではない」（榊原CEO）", "get_title_before": "【RIZIN】三浦孝太、MMAデビュー皇治との対戦に「シンプルにうれしい」「挑むのは変わらない」", "update": true}]}, {"date": "2023/11/24 15:20", "updates": [{"head": "日経電子版 速報", "media": "NIKKEI", "url": "https://www.nikkei.com/news/category/", "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span", "get_title": "東芝、株式併合議案の賛成率9割超　22日株主総会で", "get_title_before": "日経平均大引け　続伸、173円高の3万3625円", "update": true}, {"head": "NHKニュース 速報・新着一覧", "media": "NHK", "url": "https://www3.nhk.or.jp/news/catnew.html", "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em", "get_title": "泥酔の男性客に100万円引き出させた疑い 飲食店元従業員ら逮捕", "get_title_before": "大相撲九州場所 三段目 幕下経験者の大昇龍 全勝優勝", "update": true}, {"head": "Yahoo!ニュース 速報", "media": "Yahoo!", "url": "https://news.yahoo.co.jp/flash", "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p", "get_title": "4日間の戦闘休止予定時間を迎える、直前にもガザで爆音と噴煙", "get_title_before": "【RIZIN】木村ミノルが再検査もドーピング陽性、安保瑠輝也戦は中止「完全な状態ではない」（榊原CEO）", "update": true}]}, {"date": "2023/11/24 21:41", "updates": [{"head": "日経電子版 速報", "media": "NIKKEI", "url": "https://www.nikkei.com/news/category/", "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span", "get_title": "パキスタン、BRICSへ加盟申請　インドの判断焦点", "get_title_before": "東芝、株式併合議案の賛成率9割超　22日株主総会で", "update": true}, {"head": "NHKニュース 速報・新着一覧", "media": "NHK", "url": "https://www3.nhk.or.jp/news/catnew.html", "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em", "get_title": "2023年 経営トップの迷言、珍言集", "get_title_before": "泥酔の男性客に100万円引き出させた疑い 飲食店元従業員ら逮捕", "update": true}, {"head": "Yahoo!ニュース 速報", "media": "Yahoo!", "url": "https://news.yahoo.co.jp/flash", "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p", "get_title": "作家・伊集院静さん死去に妻の篠ひろ子「最期まで自分の生き方を貫き通した人生でした」", "get_title_before": "4日間の戦闘休止予定時間を迎える、直前にもガザで爆音と噴煙", "update": true}]}, {"date": "2023/11/24 22:20", "updates": [{"head": "日経電子版 速報", "media": "NIKKEI", "url": "https://www.nikkei.com/news/category/", "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span", "get_title": "中国不動産の万科、ムーディーズが2段階格下げ", "get_title_before": "作家の伊集院静さんが死去、73歳　「大人の流儀」", "update": true}, {"head": "NHKニュース 速報・新着一覧", "media": "NHK", "url": "https://www3.nhk.or.jp/news/catnew.html", "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em", "get_title": "【随時更新】パレスチナ ガザ地区 4日間の戦闘休止期間に入る", "get_title_before": "バス路線 全国8600キロ余が廃止 要因の4割が“運転手不足”", "update": true}]}, {"date": "2023/11/24 22:24", "updates": [{"head": "NHKニュース 速報・新着一覧", "media": "NHK", "url": "https://www3.nhk.or.jp/news/catnew.html", "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em", "get_title": "中国 6か国の短期滞在 ビザ免除措置実施へ 日本は再開求める", "get_title_before": "【随時更新】パレスチナ ガザ地区 4日間の戦闘休止期間に入る", "update": true}, {"head": "Yahoo!ニュース 速報", "media": "Yahoo!", "url": "https://news.yahoo.co.jp/flash", "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p", "get_title": "「4日間休戦」開始、自宅目指すガザ住民", "get_title_before": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問", "update": true}]}]
+[
+    {
+        "date": "2023/11/24 15:10",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "日経平均大引け　続伸、173円高の3万3625円",
+                "get_title_before": "｢育成就労｣どんな制度？　技能実習の転職制限、段階緩和",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "大相撲九州場所 三段目 幕下経験者の大昇龍 全勝優勝",
+                "get_title_before": "【速報中】フィギュア NHK杯 女子シングル 青木祐奈が自己最高",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 15:11",
+        "updates": [
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "【RIZIN】木村ミノルが再検査もドーピング陽性、安保瑠輝也戦は中止「完全な状態ではない」（榊原CEO）",
+                "get_title_before": "【RIZIN】三浦孝太、MMAデビュー皇治との対戦に「シンプルにうれしい」「挑むのは変わらない」",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 15:20",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "東芝、株式併合議案の賛成率9割超　22日株主総会で",
+                "get_title_before": "日経平均大引け　続伸、173円高の3万3625円",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "泥酔の男性客に100万円引き出させた疑い 飲食店元従業員ら逮捕",
+                "get_title_before": "大相撲九州場所 三段目 幕下経験者の大昇龍 全勝優勝",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "4日間の戦闘休止予定時間を迎える、直前にもガザで爆音と噴煙",
+                "get_title_before": "【RIZIN】木村ミノルが再検査もドーピング陽性、安保瑠輝也戦は中止「完全な状態ではない」（榊原CEO）",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 21:41",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "パキスタン、BRICSへ加盟申請　インドの判断焦点",
+                "get_title_before": "東芝、株式併合議案の賛成率9割超　22日株主総会で",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "2023年 経営トップの迷言、珍言集",
+                "get_title_before": "泥酔の男性客に100万円引き出させた疑い 飲食店元従業員ら逮捕",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "作家・伊集院静さん死去に妻の篠ひろ子「最期まで自分の生き方を貫き通した人生でした」",
+                "get_title_before": "4日間の戦闘休止予定時間を迎える、直前にもガザで爆音と噴煙",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 22:20",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "中国不動産の万科、ムーディーズが2段階格下げ",
+                "get_title_before": "作家の伊集院静さんが死去、73歳　「大人の流儀」",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "【随時更新】パレスチナ ガザ地区 4日間の戦闘休止期間に入る",
+                "get_title_before": "バス路線 全国8600キロ余が廃止 要因の4割が“運転手不足”",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 22:24",
+        "updates": [
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "中国 6か国の短期滞在 ビザ免除措置実施へ 日本は再開求める",
+                "get_title_before": "【随時更新】パレスチナ ガザ地区 4日間の戦闘休止期間に入る",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "「4日間休戦」開始、自宅目指すガザ住民",
+                "get_title_before": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/24 22:32",
+        "updates": [
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "J133節 2位マリノス引き分け あすヴィッセル勝てばリーグ優勝",
+                "get_title_before": "中国 6か国の短期滞在 ビザ免除措置実施へ 日本は再開求める",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問",
+                "get_title_before": "「4日間休戦」開始、自宅目指すガザ住民",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/25 22:34",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
+                "get_title_before": "中国不動産の万科、ムーディーズが2段階格下げ",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "【随時更新】ハマス 人質24人を解放 戦闘休止後初",
+                "get_title_before": "J133節 2位マリノス引き分け あすヴィッセル勝てばリーグ優勝",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+                "get_title_before": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/25 22:34",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
+                "get_title_before": "中国不動産の万科、ムーディーズが2段階格下げ",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "【随時更新】ハマス 人質24人を解放 戦闘休止後初",
+                "get_title_before": "J133節 2位マリノス引き分け あすヴィッセル勝てばリーグ優勝",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+                "get_title_before": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問",
+                "update": true
+            }
+        ]
+    }
+]
