@@ -1,0 +1,33 @@
+@use "./variables" as *;
+@use "./typography" as *;
+
+$button-height-large: 56px;
+$button-height-medium: 48px;
+$button-height-small: 30px;
+
+@mixin button {
+  @include palt;
+  display: block;
+  padding: 0 calc($button-height-small / 2);
+  font-family: $font-sans;
+  background: none;
+  border: none;
+  line-height: 1;
+  height: $button-height-small;
+  border-radius: calc($button-height-small / 2);
+}
+
+.button {
+  @include button;
+
+  &--primary {
+    background-color: $color-primary;
+    color: #fff;
+  }
+
+  &--secondary {
+    background-color: #fff;
+    color: $color-text;
+    border: 1px solid $color-text;
+  }
+}

@@ -1,35 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [list, setList] = useState([]);
+  useEffect(() => {
+    axios
+      .get("./data/update.json")
+      .then((response) => {
+        console.log(response.data);
+        setList(response.data);
+      })
+      .catch((error) => {
+        console.error("Error", error);
+      });
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="container type-sans">
+      {list.map((block) => {
+        return (
+          <div className="container__block" key={block.date}>
+            <p className="container__block__date">{block.date}</p>
+            <ul className="container__block__list">
+              {block.updates.map((item) => {
+                return (
+                  <li className="list-item" key={item.head}>
+                    <div className="list-item__header">
+                      <p className="list-item__header__media">{item.media}</p>
+                      <p className="list-item__header__head">{item.head}</p>
+                    </div>
+                    <p className="list-item__title">{item.get_title}</p>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
-export default App
+export default App;

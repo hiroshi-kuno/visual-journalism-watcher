@@ -1,0 +1,4 @@
+head,media,url,selector,get_title,get_title_before
+日経電子版 速報,NIKKEI,https://www.nikkei.com/news/category/,#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span,,
+NHKニュース 速報・新着一覧,NHK,https://www3.nhk.or.jp/news/catnew.html,#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em,,
+Yahoo!ニュース 速報,Yahoo!,https://news.yahoo.co.jp/flash,#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p,,
