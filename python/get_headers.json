@@ -4,8 +4,8 @@
         "media": "NIKKEI",
         "url": "https://www.nikkei.com/news/category/",
         "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
-        "get_title": "中国不動産の万科、ムーディーズが2段階格下げ",
-        "get_title_before": "中国不動産の万科、ムーディーズが2段階格下げ",
+        "get_title": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
+        "get_title_before": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
         "update": false
     },
     {
@@ -13,8 +13,8 @@
         "media": "NHK",
         "url": "https://www3.nhk.or.jp/news/catnew.html",
         "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
-        "get_title": "J133節 2位マリノス引き分け あすヴィッセル勝てばリーグ優勝",
-        "get_title_before": "中国 6か国の短期滞在 ビザ免除措置実施へ 日本は再開求める",
+        "get_title": "フィギュア NHK杯 鍵山優真3年ぶり優勝 宇野昌磨2位【全結果】",
+        "get_title_before": "【随時更新】ハマス 人質24人を解放 戦闘休止後初",
         "update": true
     },
     {
@@ -22,8 +22,8 @@
         "media": "Yahoo!",
         "url": "https://news.yahoo.co.jp/flash",
         "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
-        "get_title": "【フィギュア】宇野昌磨ＳＰ冒頭の「アイ・ラブ・ユーはどんな意味？」　海外メディアが変化球質問",
-        "get_title_before": "「4日間休戦」開始、自宅目指すガザ住民",
-        "update": true
+        "get_title": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+        "get_title_before": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+        "update": false
     }
 ]
