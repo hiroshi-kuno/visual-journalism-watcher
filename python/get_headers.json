@@ -4,8 +4,8 @@
         "media": "NIKKEI",
         "url": "https://www.nikkei.com/news/category/",
         "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
-        "get_title": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
-        "get_title_before": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
+        "get_title": "育児時短勤務、賃金の1割給付を検討　2歳未満対象",
+        "get_title_before": "育児時短勤務、賃金の1割給付を検討　2歳未満対象",
         "update": false
     },
     {
@@ -13,17 +13,17 @@
         "media": "NHK",
         "url": "https://www3.nhk.or.jp/news/catnew.html",
         "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
-        "get_title": "フィギュア NHK杯 鍵山優真3年ぶり優勝 宇野昌磨2位【全結果】",
-        "get_title_before": "【随時更新】ハマス 人質24人を解放 戦闘休止後初",
-        "update": true
+        "get_title": "中国 李強首相 半導体などの輸出規制強めるアメリカけん制",
+        "get_title_before": "中国 李強首相 半導体などの輸出規制強めるアメリカけん制",
+        "update": false
     },
     {
         "head": "Yahoo!ニュース 速報",
         "media": "Yahoo!",
         "url": "https://news.yahoo.co.jp/flash",
         "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
-        "get_title": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
-        "get_title_before": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+        "get_title": "戦闘休止を2日間延長へ　国連機関の責任者「必要なのは長期の休戦」",
+        "get_title_before": "戦闘休止を2日間延長へ　国連機関の責任者「必要なのは長期の休戦」",
         "update": false
     }
 ]

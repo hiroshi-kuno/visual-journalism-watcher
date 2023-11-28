@@ -228,5 +228,88 @@
                 "update": true
             }
         ]
+    },
+    {
+        "date": "2023/11/25 22:50",
+        "updates": [
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "フィギュア NHK杯 鍵山優真3年ぶり優勝 宇野昌磨2位【全結果】",
+                "get_title_before": "【随時更新】ハマス 人質24人を解放 戦闘休止後初",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/28 21:57",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "山梨の山林に18歳女性の遺体を遺棄疑い、30歳男を逮捕",
+                "get_title_before": "楽天、安楽智大を自宅待機に　ハラスメント疑い",
+                "update": true
+            },
+            {
+                "head": "NHKニュース 速報・新着一覧",
+                "media": "NHK",
+                "url": "https://www3.nhk.or.jp/news/catnew.html",
+                "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
+                "get_title": "中国 李強首相 半導体などの輸出規制強めるアメリカけん制",
+                "get_title_before": "フィギュア NHK杯 鍵山優真3年ぶり優勝 宇野昌磨2位【全結果】",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "ガザ戦闘休止合意、ハマスが２日間で人質２０人を新たに解放へ…停戦のめどは立たず",
+                "get_title_before": "＜第15回TAMA映画賞＞最優秀作品賞は「怪物」「雑魚どもよ、大志を抱け！」　旬の俳優が授賞式に",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/28 22:02",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "岸田首相「24年は緊迫の1年に」　米大統領選を例示",
+                "get_title_before": "山梨の山林に18歳女性の遺体を遺棄疑い、30歳男を逮捕",
+                "update": true
+            }
+        ]
+    },
+    {
+        "date": "2023/11/28 22:15",
+        "updates": [
+            {
+                "head": "日経電子版 速報",
+                "media": "NIKKEI",
+                "url": "https://www.nikkei.com/news/category/",
+                "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
+                "get_title": "育児時短勤務、賃金の1割給付を検討　2歳未満対象",
+                "get_title_before": "岸田首相「24年は緊迫の1年に」　米大統領選を例示",
+                "update": true
+            },
+            {
+                "head": "Yahoo!ニュース 速報",
+                "media": "Yahoo!",
+                "url": "https://news.yahoo.co.jp/flash",
+                "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
+                "get_title": "戦闘休止を2日間延長へ　国連機関の責任者「必要なのは長期の休戦」",
+                "get_title_before": "ガザ戦闘休止合意、ハマスが２日間で人質２０人を新たに解放へ…停戦のめどは立たず",
+                "update": true
+            }
+        ]
     }
 ]
