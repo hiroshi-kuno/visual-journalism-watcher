@@ -5,7 +5,7 @@ function App() {
   const [list, setList] = useState([]);
   useEffect(() => {
     axios
-      .get("./data/update.json")
+      .get("https://storage.googleapis.com/vrw-dataset/test_get_headline_update.json")
       .then((response) => {
         console.log(response.data);
         setList(response.data);
