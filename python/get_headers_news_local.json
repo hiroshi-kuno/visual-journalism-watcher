@@ -4,8 +4,8 @@
         "media": "NIKKEI",
         "url": "https://www.nikkei.com/news/category/",
         "selector": "#CONTENTS_MAIN > div:nth-child(1) > h3 > a > span",
-        "get_title": "東証10時　下げ幅拡大　一時200円超安　円一段高で",
-        "get_title_before": "育児時短勤務、賃金の1割給付を検討　2歳未満対象",
+        "get_title": "NTT｢法整備に協力｣　自民党の廃止提言で",
+        "get_title_before": "富士フイルム「チェキ」、24年度に売上高1500億円に",
         "update": true
     },
     {
@@ -13,17 +13,17 @@
         "media": "NHK",
         "url": "https://www3.nhk.or.jp/news/catnew.html",
         "selector": "#main > article > section > div > ul > li:nth-child(1) > dl > dd > a > em",
-        "get_title": "【随時更新】ガザで拘束12人解放 収監のパレスチナ人30人釈放",
-        "get_title_before": "中国 李強首相 半導体などの輸出規制強めるアメリカけん制",
-        "update": true
+        "get_title": "【随時更新】イスラエル軍 南部への空爆強化 地上部隊を展開",
+        "get_title_before": "【随時更新】イスラエル軍 南部への空爆強化 地上部隊を展開",
+        "update": false
     },
     {
         "head": "Yahoo!ニュース 速報",
         "media": "Yahoo!",
         "url": "https://news.yahoo.co.jp/flash",
         "selector": "#contentsWrap > div:nth-child(3) > div.sc-dMCwnC.lipeMg > div > a > p",
-        "get_title": "【16日ぶりの救出】インドで建設中のトンネルが崩落、作業員41人が閉じ込められていた事故　全員が救出「健康状態は良好」",
-        "get_title_before": "戦闘休止を2日間延長へ　国連機関の責任者「必要なのは長期の休戦」",
+        "get_title": "緊迫のガザ南部「今も爆撃、家が揺れた」　避難住民に危機感",
+        "get_title_before": "安倍派がパーティー券“専用口座”つくり管理か　国会では”政治とカネ”追及続く",
         "update": true
     }
 ]
