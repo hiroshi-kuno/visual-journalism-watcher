@@ -6,7 +6,8 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://storage.googleapis.com/vrw-dataset/get_headline_update.json"
+        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_update.json"
+        // "https://storage.googleapis.com/vrw-dataset/get_headline_update.json"
       )
       .then((response) => {
         console.log(response.data);
