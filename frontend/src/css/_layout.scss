@@ -8,58 +8,101 @@ html {
     padding: 0;
     color: $color-text;
     font-family: $font-sans;
-    background-color: #f0f0f0;
+    // background-color: #f0f0f0;
+  }
+}
+
+.app-header {
+  // margin: 4rem 0;
+  padding: 4rem;
+
+  &__title {
+    margin: 0 0 0.25em 0;
+    font-size: 2.8rem;
+    letter-spacing: 0.04em;
+    // text-align: center;
+  }
+  &__text {
+    margin: 0 0 0 0;
+    font-size: 1.4rem;
+    letter-spacing: 0.04em;
+    color: #999;
   }
 }
 
 .container {
+}
+
+.viewer {
   margin: 0 auto;
   padding: 4rem;
   max-width: 560px;
   font-size: 1.8rem;
 
+  @media (min-width: 1024px) {
+    max-width: 768px;
+  }
+
   &__block {
-    margin: 0 0 4em 0;
-    border-top: 1px solid $color-text;
+    margin: 0 0 3em 0;
+    // border-top: 1px solid $color-text;
+
+    @media (min-width: 1024px) {
+      display: flex;
+    }
 
     &__date {
+      margin: 0 0 1em 0;
       font-size: 2rem;
-      letter-spacing: 0.04em;
+      line-height: 1.4;
+      letter-spacing: 0.06em;
     }
 
     &__list {
       list-style: none;
       margin: 0;
-      padding: 0;
+      padding: 0 0 0 3.2rem;
     }
   }
 }
 
 .list-item {
-  margin: 0 0 0.5em 0;
-  padding: 1.6rem;
-  // border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #fff;
-
-  &__header {
-    margin: 0 0 0.5em 0;
-    display: flex;
-    font-size: 1.6rem;
-    line-height: 1;
-
-    &__media {
-      margin: 0 1em 0 0;
-    }
-    &__head {
-      margin: 0;
-      color: #999;
-    }
-  }
-  &__title {
-    @include palt;
+  &__link {
+    @extend .link;
+    display: block;
     margin: 0;
-    font-weight: 700;
-    line-height: 1.6;
+    padding: 1.6rem 1.2rem 1.2rem;
+    border-top: 1px solid #555;
+    // border-radius: 4px;
+    transition: $transition;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    &__header {
+      margin: 0 0 0.5em 0;
+      display: flex;
+      font-size: 1.6rem;
+      line-height: 1;
+
+      &__head {
+        margin: 0 1em 0 0;
+        letter-spacing: 0.05em;
+      }
+
+      &__media {
+        margin: 0;
+        letter-spacing: 0.05em;
+        color: #999;
+      }
+    }
+
+    &__title {
+      @extend .palt;
+      margin: 0;
+      font-weight: 700;
+      line-height: 1.6;
+    }
   }
 }

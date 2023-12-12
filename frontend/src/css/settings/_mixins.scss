@@ -6,7 +6,7 @@ $button-height-medium: 48px;
 $button-height-small: 30px;
 
 @mixin button {
-  @include palt;
+  @extend .palt;
   display: block;
   padding: 0 calc($button-height-small / 2);
   font-family: $font-sans;
@@ -29,5 +29,17 @@ $button-height-small: 30px;
     background-color: #fff;
     color: $color-text;
     border: 1px solid $color-text;
+  }
+}
+
+.link {
+  color: $color-text;
+  text-decoration: none;
+
+  &:hover,
+  &:visited,
+  &:active {
+    color: $color-text;
+    text-decoration: none;
   }
 }

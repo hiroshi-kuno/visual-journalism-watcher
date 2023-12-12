@@ -15,7 +15,7 @@ $font-sans: "Inter", "Noto Sans JP", sans-serif;
   line-height: 2;
 }
 
-@mixin palt {
+.palt {
   font-feature-settings: "palt";
   letter-spacing: 0.05em;
 }
