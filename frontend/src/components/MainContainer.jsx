@@ -24,9 +24,9 @@ function MainContainer() {
           <div className="viewer__block" key={block.date}>
             <p className="viewer__block__date">{block.date}</p>
             <ul className="viewer__block__list">
-              {block.updates.map((item) => {
+              {block.updates.map((item, index) => {
                 return (
-                  <li className="list-item" key={item.head}>
+                  <li className="list-item" key={index}>
                     <a
                       href={item.url}
                       className="list-item__link"
