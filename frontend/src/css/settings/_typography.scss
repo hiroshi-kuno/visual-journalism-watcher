@@ -10,11 +10,6 @@
 $font-serif: "EB Garamond", "Noto Serif JP", serif;
 $font-sans: "Inter", "Noto Sans JP", sans-serif;
 
-@mixin type-text {
-  color: $color-text;
-  line-height: 2;
-}
-
 .palt {
   font-feature-settings: "palt";
   letter-spacing: 0.05em;
@@ -22,14 +17,17 @@ $font-sans: "Inter", "Noto Sans JP", sans-serif;
 
 .type-serif {
   font-family: $font-serif;
-  font-weight: 400;
 }
 
 .type-sans {
   font-family: $font-sans;
+}
+
+.type-sans-light {
   font-weight: 300;
 }
 
 .type-text {
-  @include type-text;
+  color: $color-text;
+  line-height: 2;
 }

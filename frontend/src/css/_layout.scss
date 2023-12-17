@@ -68,8 +68,8 @@ html {
   }
 
   &__block {
+    @extend .type-sans-light;
     margin: 0 0 3em 0;
-    // border-top: 1px solid $color-text;
 
     @media (min-width: 1024px) {
       display: flex;
@@ -87,7 +87,11 @@ html {
       flex: 1 1 80%;
       list-style: none;
       margin: 0;
-      padding: 0 0 0 3.2rem;
+      padding: 0;
+
+      @media (min-width: 1024px) {
+        padding: 0 0 0 3.2rem;
+      }
     }
   }
 }
@@ -99,7 +103,6 @@ html {
     margin: 0;
     padding: 1.6rem 1.2rem 1.2rem;
     border-top: 1px solid #555;
-    // border-radius: 4px;
     transition: $transition;
 
     &:hover {
@@ -108,13 +111,21 @@ html {
 
     &__header {
       margin: 0 0 0.5em 0;
-      display: flex;
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       line-height: 1;
 
+      @media (min-width: 1024px) {
+        display: flex;
+        font-size: 1.4rem;
+      }
+
       &__head {
-        margin: 0 1em 0 0;
+        margin: 0 0 0.5em 0;
         letter-spacing: 0.05em;
+
+        @media (min-width: 1024px) {
+          margin: 0 1em 0 0;
+        }
       }
 
       &__media {
@@ -125,10 +136,14 @@ html {
     }
 
     &__title {
-      @extend .palt;
+      @extend .type-serif;
       margin: 0;
+      font-size: 1.8rem;
       font-weight: 700;
-      line-height: 1.6;
+      line-height: 1.5;
+      @media (min-width: 1024px) {
+        font-size: 2rem;
+      }
     }
   }
 }
