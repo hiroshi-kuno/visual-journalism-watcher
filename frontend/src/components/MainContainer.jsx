@@ -2,24 +2,66 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function MainContainer() {
-  const [list, setList] = useState([]);
+  const [listOfView, setListOfView] = useState([]);
+  const [listOfSections, setListOfSections] = useState([]);
+  const [listOfReporters, setListOfReporters] = useState([]);
   useEffect(() => {
     axios
       .get(
-        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_update.json"
+        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_sections_update.json"
       )
       .then((response) => {
-        // console.log(response.data);
-        setList(response.data);
+        setListOfSections(response.data);
+        setListOfView(response.data);
+      })
+      .catch((error) => {
+        console.error("Error", error);
+      });
+    axios
+      .get(
+        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_reporters_update.json"
+      )
+      .then((response) => {
+        setListOfReporters(response.data);
       })
       .catch((error) => {
         console.error("Error", error);
       });
   }, []);
 
+  const changeView = (target) => {
+    switch (target) {
+      case "sections":
+        setListOfView(listOfSections);
+        break;
+      case "reporters":
+        setListOfView(listOfReporters);
+        break;
+      default:
+        return;
+    }
+  };
+
   return (
     <div className="viewer type-sans">
-      {list.map((block) => {
+      <input
+        type="radio"
+        name="type-of-list"
+        id="typeOfListSections"
+        value="sections"
+        onChange={(e) => changeView(e.target.value)}
+      />
+      <label htmlFor="typeOfListSections">Sections</label>
+      <input
+        type="radio"
+        name="type-of-list"
+        id="typeOfListReporters"
+        value="reporters"
+        onChange={(e) => changeView(e.target.value)}
+      />
+      <label htmlFor="typeOfListReporters">Reporters</label>
+
+      {listOfView.map((block) => {
         return (
           <div className="viewer__block" key={block.date}>
             <p className="viewer__block__date">{block.date}</p>
