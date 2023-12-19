@@ -1,0 +1,102 @@
+[
+  {
+    "head": "Malika Khurana",
+    "media": "New York Times",
+    "url": "https://www.nytimes.com/by/malika-khurana",
+    "selector": "#stream-panel > div.css-13mho3u > ol > li:nth-child(3) > div > article > a",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Scott Reinhard",
+    "media": "New York Times",
+    "url": "https://www.nytimes.com/by/scott-reinhard",
+    "selector": "#stream-panel > div.css-13mho3u > ol > li:nth-child(3) > div > article > a",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Zach Levitt",
+    "media": "New York Times",
+    "url": "https://www.nytimes.com/by/zach-levitt",
+    "selector": "#stream-panel > div.css-13mho3u > ol > li:nth-child(3) > div > article > a",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Elena Shao",
+    "media": "New York Times",
+    "url": "https://www.nytimes.com/by/elena-shao",
+    "selector": "#stream-panel > div.css-13mho3u > ol > li:nth-child(3) > div > article > a",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Jeremy White",
+    "media": "New York Times",
+    "url": "https://www.nytimes.com/by/jeremy-white",
+    "selector": "#stream-panel > div.css-13mho3u > ol > li:nth-child(3) > div > article > a",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Kaliz Lee",
+    "media": "South China Morning Post",
+    "url": "https://www.scmp.com/author/kaliz-lee",
+    "selector": "#__next > div > div > div > div > div.css-nz6s26.e1fucaj3 > div > div:nth-child(1) > div.css-10ikge2.e1whfq0b6 > a > h2",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Rocio Marquez",
+    "media": "South China Morning Post",
+    "url": "https://www.scmp.com/author/rocio-marquez",
+    "selector": "#__next > div > div > div > div > div.css-nz6s26.e1fucaj3 > div > div:nth-child(1) > div.css-10ikge2.e1whfq0b6 > a > h2",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Marcelo Duhalde",
+    "media": "South China Morning Post",
+    "url": "https://www.scmp.com/author/marcelo-duhalde",
+    "selector": "#__next > div > div > div > div > div.css-nz6s26.e1fucaj3 > div > div:nth-child(1) > div.css-10ikge2.e1whfq0b6 > a > h2",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Aaron Steckelberg",
+    "media": "Washington Post",
+    "url": "https://www.washingtonpost.com/people/aaron-steckelberg/",
+    "selector": "#main-content > article > div > div:nth-child(2) > div > div > a > h2",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  },
+  {
+    "head": "Szu Yu Chen",
+    "media": "Washington Post",
+    "url": "https://www.washingtonpost.com/people/szuyu-chen/",
+    "selector": "#main-content > article > div > div:nth-child(2) > div > div > a > h2",
+    "get_title": "",
+    "get_title_before": "",
+    "update": false,
+    "get_status": false
+  }
+]
