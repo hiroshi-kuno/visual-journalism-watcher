@@ -1,3 +1,7 @@
 @use "./settings/" as *;
 
+@use "./App";
+@use "./AppHeader";
 @use "./layout";
+@use "./MainContainer";
+@use "./SideColumn";

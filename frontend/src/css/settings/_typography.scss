@@ -29,5 +29,10 @@ $font-sans: "Inter", "Noto Sans JP", sans-serif;
 
 .type-text {
   color: $color-text;
+  font-size: 1.4rem;
   line-height: 2;
+
+  @media (min-width: 1024px) {
+    font-size: 1.6rem;
+  }
 }
