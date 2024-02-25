@@ -12,22 +12,6 @@ const SideColumnDesktop = () => {
           <input
             type="radio"
             name="type-of-list-desktop"
-            id="typeOfListSections"
-            value="sections"
-            onChange={() =>
-              setState({
-                ...state,
-                isMainContainer: "sections",
-              })
-            }
-            checked={state.isMainContainer === "sections"}
-          />
-          <label htmlFor="typeOfListSections">Sections</label>
-        </li>
-        <li className="menu-desktop__list__item">
-          <input
-            type="radio"
-            name="type-of-list-desktop"
             id="typeOfListReporters"
             value="reporters"
             onChange={() =>
@@ -40,6 +24,22 @@ const SideColumnDesktop = () => {
           />
           <label htmlFor="typeOfListReporters">Reporters</label>
         </li>
+        {/* <li className="menu-desktop__list__item">
+          <input
+            type="radio"
+            name="type-of-list-desktop"
+            id="typeOfListSections"
+            value="sections"
+            onChange={() =>
+              setState({
+                ...state,
+                isMainContainer: "sections",
+              })
+            }
+            checked={state.isMainContainer === "sections"}
+          />
+          <label htmlFor="typeOfListSections">Sections</label>
+        </li> */}
       </ul>
       {/* 
       <span className="menu-desktop__divider"></span>

@@ -6,8 +6,8 @@ import SideColumnMobile from "./components/SideColumnMobile";
 function App() {
   return (
     <AppContext>
-      <SideColumnDesktop />
-      <SideColumnMobile />
+      {/* <SideColumnDesktop />
+      <SideColumnMobile /> */}
       <div className="container">
         <MainContainer />
       </div>

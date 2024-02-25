@@ -11,22 +11,6 @@ const SideColumnMobile = () => {
           <input
             type="radio"
             name="type-of-list-mobile"
-            id="typeOfListSectionsMobile"
-            value="sections"
-            onChange={() =>
-              setState({
-                ...state,
-                isMainContainer: "sections",
-              })
-            }
-            checked={state.isMainContainer === "sections"}
-          />
-          <label htmlFor="typeOfListSections">Sections</label>
-        </li>
-        <li className="menu-mobile__list__item">
-          <input
-            type="radio"
-            name="type-of-list-mobile"
             id="typeOfListReportersMobile"
             value="reporters"
             onChange={() =>
@@ -38,6 +22,22 @@ const SideColumnMobile = () => {
             checked={state.isMainContainer === "reporters"}
           />
           <label htmlFor="typeOfListReportersMobile">Reporters</label>
+        </li>
+        <li className="menu-mobile__list__item">
+          <input
+            type="radio"
+            name="type-of-list-mobile"
+            id="typeOfListSectionsMobile"
+            value="sections"
+            onChange={() =>
+              setState({
+                ...state,
+                isMainContainer: "sections",
+              })
+            }
+            checked={state.isMainContainer === "sections"}
+          />
+          <label htmlFor="typeOfListSections">Sections</label>
         </li>
         {/* <li className="menu-mobile__list__item">
           <input

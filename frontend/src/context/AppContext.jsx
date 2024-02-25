@@ -4,7 +4,7 @@ import axios from "axios";
 
 const initState = {
   isDataLoad: false,
-  isMainContainer: "sections",
+  isMainContainer: "reporters",
   dataListSections: [],
   dataListReporters: [],
 };
@@ -46,9 +46,7 @@ const AppContext = ({ children }) => {
       });
 
     axios
-      .get(
-        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_reporters_update.json"
-      )
+      .get("https://storage.googleapis.com/vrw-dataset/reporters_updates.json")
       .then((response) => {
         setReporters({
           done: true,
@@ -68,6 +66,7 @@ const AppContext = ({ children }) => {
 
   useEffect(() => {
     if (dataSections.done === true && dataReporters.done === true) {
+      console.log(dataReporters.data);
       setState({
         ...state,
         isDataLoad: true,
