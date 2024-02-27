@@ -24,7 +24,7 @@ const SideColumnDesktop = () => {
           />
           <label htmlFor="typeOfListReporters">Reporters</label>
         </li>
-        {/* <li className="menu-desktop__list__item">
+        <li className="menu-desktop__list__item">
           <input
             type="radio"
             name="type-of-list-desktop"
@@ -39,7 +39,7 @@ const SideColumnDesktop = () => {
             checked={state.isMainContainer === "sections"}
           />
           <label htmlFor="typeOfListSections">Sections</label>
-        </li> */}
+        </li>
       </ul>
       {/* 
       <span className="menu-desktop__divider"></span>

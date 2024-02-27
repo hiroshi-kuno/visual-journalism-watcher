@@ -26,9 +26,7 @@ const AppContext = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get(
-        "https://storage.googleapis.com/vrw-dataset/get_headers_raspi_sections_update.json"
-      )
+      .get("https://storage.googleapis.com/vrw-dataset/sections_updates.json")
       .then((response) => {
         setSections({
           done: true,
