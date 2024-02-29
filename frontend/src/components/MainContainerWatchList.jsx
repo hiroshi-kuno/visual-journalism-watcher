@@ -6,6 +6,7 @@ const MainContainerWatchList = () => {
   // console.log(state.dataReporters[0], state.dataSections[0]);
   return (
     <div>
+      <h2>Reporters</h2>
       {state.dataReporters.map((item) => {
         return (
           <div key={item.head}>
@@ -17,6 +18,7 @@ const MainContainerWatchList = () => {
         );
       })}
 
+      <h2>Visual Sections</h2>
       {state.dataSections.map((item) => {
         return (
           <div key={item.url}>
