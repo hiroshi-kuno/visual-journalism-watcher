@@ -9,11 +9,11 @@ const MainContainerArticles = () => {
 
   useEffect(() => {
     switch (state.isMainContainer) {
-      case "sections":
-        setListOfView(state.dataListSections);
-        break;
       case "reporters":
-        setListOfView(state.dataListReporters);
+        setListOfView(state.dataReportersUpdates);
+        break;
+      case "sections":
+        setListOfView(state.dataSectionsUpdates);
         break;
       default:
         return;

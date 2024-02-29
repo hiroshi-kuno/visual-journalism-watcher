@@ -5,20 +5,31 @@ import axios from "axios";
 const initState = {
   isDataLoad: false,
   isMainContainer: "reporters",
-  dataListSections: [],
-  dataListReporters: [],
+  dataSections: [],
+  dataReporters: [],
+  dataSectionsUpdates: [],
+  dataReportersUpdates: [],
 };
 
 const AppContext = ({ children }) => {
   const [state, setState] = useState(initState);
 
-  const [dataSections, setSections] = useState({
+  const [fetchReporters, setFetchReporters] = useState({
     done: false,
     isGet: false,
     data: [],
   });
-
-  const [dataReporters, setReporters] = useState({
+  const [fetchReportersUpdates, setFetchReportersUpdates] = useState({
+    done: false,
+    isGet: false,
+    data: [],
+  });
+  const [fetchSections, setFetchSections] = useState({
+    done: false,
+    isGet: false,
+    data: [],
+  });
+  const [fetchSectionsUpdates, setFetchSectionsUpdates] = useState({
     done: false,
     isGet: false,
     data: [],
@@ -26,9 +37,9 @@ const AppContext = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("https://storage.googleapis.com/vrw-dataset/sections_updates.json")
+      .get("https://storage.googleapis.com/vrw-dataset/reporters.json")
       .then((response) => {
-        setSections({
+        setFetchReporters({
           done: true,
           isGet: true,
           data: response.data,
@@ -36,7 +47,7 @@ const AppContext = ({ children }) => {
       })
       .catch((error) => {
         console.error("Error", error);
-        setSections({
+        setFetchReporters({
           done: true,
           isGet: false,
           data: [],
@@ -46,7 +57,7 @@ const AppContext = ({ children }) => {
     axios
       .get("https://storage.googleapis.com/vrw-dataset/reporters_updates.json")
       .then((response) => {
-        setReporters({
+        setFetchReportersUpdates({
           done: true,
           isGet: true,
           data: response.data,
@@ -54,7 +65,43 @@ const AppContext = ({ children }) => {
       })
       .catch((error) => {
         console.error("Error", error);
-        setReporters({
+        setFetchReportersUpdates({
+          done: true,
+          isGet: false,
+          data: [],
+        });
+      });
+
+    axios
+      .get("https://storage.googleapis.com/vrw-dataset/sections.json")
+      .then((response) => {
+        setFetchSections({
+          done: true,
+          isGet: true,
+          data: response.data,
+        });
+      })
+      .catch((error) => {
+        console.error("Error", error);
+        setFetchSections({
+          done: true,
+          isGet: false,
+          data: [],
+        });
+      });
+
+    axios
+      .get("https://storage.googleapis.com/vrw-dataset/sections_updates.json")
+      .then((response) => {
+        setFetchSectionsUpdates({
+          done: true,
+          isGet: true,
+          data: response.data,
+        });
+      })
+      .catch((error) => {
+        console.error("Error", error);
+        setFetchSectionsUpdates({
           done: true,
           isGet: false,
           data: [],
@@ -63,16 +110,27 @@ const AppContext = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    if (dataSections.done === true && dataReporters.done === true) {
-      console.log(dataReporters.data);
+    if (
+      fetchReporters.done === true &&
+      fetchReportersUpdates.done === true &&
+      fetchSections.done === true &&
+      fetchSectionsUpdates.done === true
+    ) {
       setState({
         ...state,
         isDataLoad: true,
-        dataListSections: dataSections.data,
-        dataListReporters: dataReporters.data,
+        dataReporters: fetchReporters.data,
+        dataReportersUpdates: fetchReportersUpdates.data,
+        dataSections: fetchSections.data,
+        dataSectionsUpdates: fetchSectionsUpdates.data,
       });
     }
-  }, [dataSections, dataReporters]);
+  }, [
+    fetchReporters,
+    fetchReportersUpdates,
+    fetchSections,
+    fetchSectionsUpdates,
+  ]);
 
   return (
     <ContextData.Provider value={[state, setState]}>

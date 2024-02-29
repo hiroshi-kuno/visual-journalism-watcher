@@ -41,7 +41,7 @@ const SideColumnDesktop = () => {
           <label htmlFor="typeOfListSections">Sections</label>
         </li>
       </ul>
-      {/* 
+
       <span className="menu-desktop__divider"></span>
 
       <ul className="menu-desktop__list">
@@ -61,7 +61,7 @@ const SideColumnDesktop = () => {
           />
           <label htmlFor="typeOfListWatchList">Watch list</label>
         </li>
-      </ul> */}
+      </ul>
     </div>
   );
 };
