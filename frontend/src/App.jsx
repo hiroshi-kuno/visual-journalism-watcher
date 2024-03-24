@@ -1,7 +1,7 @@
-import MainContainer from "./components/MainContainer";
+import MainContainer from "./components/templates/MainContainer";
 import AppContext from "./context/AppContext";
-import SideColumnDesktop from "./components/SideColumnDesktop";
-import SideColumnMobile from "./components/SideColumnMobile";
+import SideColumnDesktop from "./components/molecules/SideColumnDesktop";
+import SideColumnMobile from "./components/molecules/SideColumnMobile";
 
 function App() {
   return (

@@ -1,18 +1,18 @@
 import React from "react";
 import { useContext, useEffect, useState } from "react";
-import { ContextData } from "../context/AppContext";
+import { ContextData } from "../../context/AppContext";
 
-const MainContainerArticles = () => {
+const Articles = () => {
   const [state, setState] = useContext(ContextData);
 
   const [listOfView, setListOfView] = useState([]);
 
   useEffect(() => {
     switch (state.isMainContainer) {
-      case "reporters":
+      case "Reporter":
         setListOfView(state.dataReportersUpdates);
         break;
-      case "sections":
+      case "Section":
         setListOfView(state.dataSectionsUpdates);
         break;
       default:
@@ -21,12 +21,18 @@ const MainContainerArticles = () => {
   }, [state.isDataLoad, state.isMainContainer]);
 
   return (
-    <div>
+    <div className="viewer__block">
+      <div className="viewer__block__header">
+        <h2 className="viewer__block__header__title">Latest articles</h2>
+        <p className="viewer__block__header__category">
+          {state.isMainContainer}
+        </p>
+      </div>
       {listOfView.map((block) => {
         return (
-          <div className="viewer__block" key={block.date}>
-            <p className="viewer__block__date">{block.date}</p>
-            <ul className="viewer__block__list">
+          <div className="articles" key={block.date}>
+            <p className="articles__date">{block.date}</p>
+            <ul className="articles__list">
               {block.updates.map((item, index) => {
                 return (
                   <li className="list-item" key={index}>
@@ -56,4 +62,4 @@ const MainContainerArticles = () => {
   );
 };
 
-export default MainContainerArticles;
+export default Articles;

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ContextData } from "../context/AppContext";
+import { ContextData } from "../../context/AppContext";
 
 const SideColumnMobile = () => {
   const [state, setState] = useContext(ContextData);
@@ -12,14 +12,14 @@ const SideColumnMobile = () => {
             type="radio"
             name="type-of-list-mobile"
             id="typeOfListReportersMobile"
-            value="reporters"
+            value="Reporter"
             onChange={() =>
               setState({
                 ...state,
-                isMainContainer: "reporters",
+                isMainContainer: "Reporter",
               })
             }
-            checked={state.isMainContainer === "reporters"}
+            checked={state.isMainContainer === "Reporter"}
           />
           <label htmlFor="typeOfListReportersMobile">Reporters</label>
         </li>
@@ -28,14 +28,14 @@ const SideColumnMobile = () => {
             type="radio"
             name="type-of-list-mobile"
             id="typeOfListSectionsMobile"
-            value="sections"
+            value="Section"
             onChange={() =>
               setState({
                 ...state,
-                isMainContainer: "sections",
+                isMainContainer: "Section",
               })
             }
-            checked={state.isMainContainer === "sections"}
+            checked={state.isMainContainer === "Section"}
           />
           <label htmlFor="typeOfListSections">Sections</label>
         </li>

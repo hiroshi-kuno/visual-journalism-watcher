@@ -1,0 +1,18 @@
+@use "./settings/" as *;
+
+.watch-list {
+  &__head {
+    &__title {
+      @extend .type-h2;
+      margin: 0 0 0.5em;
+    }
+
+    &__text {
+      @extend .type-text;
+      margin: 0 0 0.5em;
+    }
+  }
+
+  &__headline {
+  }
+}

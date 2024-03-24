@@ -36,3 +36,55 @@ $font-sans: "Inter", "Noto Sans JP", sans-serif;
     font-size: 1.6rem;
   }
 }
+
+.type-h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.04em;
+
+  @media (min-width: 768px) {
+    font-size: 2.8rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3.2rem;
+  }
+}
+
+.type-h3 {
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+
+  @media (min-width: 768px) {
+    font-size: 2.4rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2.8rem;
+  }
+}
+
+.type-h4 {
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+
+  @media (min-width: 768px) {
+    font-size: 2.2rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2.4rem;
+  }
+}
+
+.type-h5 {
+  font-size: 1.8rem;
+  letter-spacing: 0.04em;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2.2rem;
+  }
+}

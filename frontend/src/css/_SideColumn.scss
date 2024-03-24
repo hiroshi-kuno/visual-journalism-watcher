@@ -49,7 +49,7 @@
 
       input[type="radio"]:checked + label {
         cursor: auto;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: "rgba(255, 255, 255, 0.1)";
       }
     }
   }
@@ -77,11 +77,11 @@
   }
 
   &__divider {
-    margin: 1em 0;
+    margin: 2rem 0;
     display: block;
-    width: 2em;
+    width: 4em;
     height: 1px;
-    background-color: #aaa;
+    background-color: $color-text;
   }
 
   &__list {
@@ -90,7 +90,8 @@
     padding: 0;
 
     &__item {
-      @extend .type-text;
+      @extend .type-h5;
+      // font-weight: 700;
       line-height: 1;
 
       label {
@@ -99,9 +100,9 @@
         align-items: center;
         cursor: pointer;
         width: 100%;
-        height: 32px;
-        padding: 0.75em;
-        margin: 0 0 0.2rem 0;
+        // height: 32px;
+        padding: 0.5em;
+        margin: 0 0 0.5rem 0;
         user-select: none;
         border-radius: 4px;
 
@@ -110,10 +111,12 @@
 
         &:hover {
           background-color: rgba(0, 0, 0, 0.1);
+          // color: #fff;
+          // background-color: $color-text;
         }
 
         @media (min-width: 1024px) {
-          height: 40px;
+          // height: 40px;
         }
       }
 
@@ -123,7 +126,9 @@
 
       input[type="radio"]:checked + label {
         cursor: auto;
-        background-color: rgba(0, 0, 0, 0.1);
+        // background-color: rgba(0, 0, 0, 0.1);
+        color: #fff;
+        background-color: $color-text;
       }
     }
   }

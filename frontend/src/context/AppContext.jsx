@@ -4,7 +4,7 @@ import axios from "axios";
 
 const initState = {
   isDataLoad: false,
-  isMainContainer: "reporters",
+  isMainContainer: "Reporter",
   dataSections: [],
   dataReporters: [],
   dataSectionsUpdates: [],

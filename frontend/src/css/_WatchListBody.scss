@@ -1,0 +1,89 @@
+@use "./settings/" as *;
+
+.watch-list-body {
+  &__headline {
+    @extend .type-h3;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: 0 0 8rem 0;
+  }
+}
+
+.watch-status {
+  position: absolute;
+  top: 2rem;
+  right: 0rem;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.5em 0 0;
+
+  border: 1px solid #ddd;
+  border-radius: 50%;
+
+  &.true {
+    border: none;
+    background: rgb(0, 206, 52);
+  }
+  &.false {
+    border: none;
+    background: rgb(173, 17, 0);
+  }
+}
+
+.watch-list-item {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  border-top: 1px solid #ddd;
+  padding: 2rem 0 0 0;
+
+  &__profile {
+    &__link {
+      @extend .type-h4;
+      display: block;
+      margin: 0 0 0.25em 0;
+      font-family: $font-serif;
+      font-weight: 700;
+      color: $color-text;
+      text-decoration: none;
+
+      &:hover,
+      &:visited,
+      &:focus {
+        color: $color-text;
+        text-decoration: underline;
+      }
+    }
+
+    &__media {
+      margin: 0 0 0.5em 0;
+    }
+
+    &__tags {
+      margin: 0 0 1em 0;
+
+      &__tag {
+        margin: 0 0.5em 0 0;
+        padding: 0.3em 0.5em;
+        font-size: 1.4rem;
+        line-height: 1;
+        background-color: #ddd;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+
+    .button {
+      flex: 1 1 30%;
+      justify-content: center;
+    }
+  }
+}

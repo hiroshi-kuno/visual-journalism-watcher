@@ -5,20 +5,35 @@ $button-height-large: 56px;
 $button-height-medium: 48px;
 $button-height-small: 30px;
 
-@mixin button {
-  @extend .palt;
-  display: block;
-  padding: 0 calc($button-height-small / 2);
-  font-family: $font-sans;
-  background: none;
-  border: none;
-  line-height: 1;
-  height: $button-height-small;
-  border-radius: calc($button-height-small / 2);
-}
-
 .button {
-  @include button;
+  @extend .palt;
+  display: flex;
+  align-items: center;
+  padding: 0 calc($button-height-small / 2);
+  height: $button-height-small;
+  border: none;
+  border-radius: calc($button-height-small / 2);
+  font-family: $font-sans;
+  line-height: 1;
+  background: none;
+  user-select: none;
+
+  &--link {
+    background-color: $color-text;
+    color: #fff;
+    text-decoration: none;
+
+    &.disable {
+      background-color: #eee;
+    }
+
+    &:hover,
+    &:visited,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 
   &--primary {
     background-color: $color-primary;

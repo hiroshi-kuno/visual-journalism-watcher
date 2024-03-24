@@ -1,17 +1,19 @@
 @use "./settings/" as *;
 
-html {
-  font-size: 62.5%;
+#root {
+  margin: 0 auto;
+  position: relative;
+  grid-template-columns: 300px auto;
 
-  body {
-    margin: 0;
-    padding: 0;
-    color: $color-text;
-    font-family: $font-sans;
-    // background-color: #f0f0f0;
+  @media (min-width: 1024px) {
+    display: grid;
 
-    div {
-      box-sizing: border-box;
+    .menu-desktop {
+      grid-column: 1/2;
+    }
+
+    .container {
+      grid-column: 2/3;
     }
   }
 }
