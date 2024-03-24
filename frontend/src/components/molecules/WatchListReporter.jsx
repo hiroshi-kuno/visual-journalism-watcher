@@ -30,6 +30,7 @@ const WatchListReporter = ({ item }) => {
             item.social ? "button button--link" : "button button--link disable"
           }
           href={item.social}
+          target="_blank"
         >
           Social
         </a>
@@ -40,6 +41,7 @@ const WatchListReporter = ({ item }) => {
               : "button button--link disable"
           }
           href={item.personal_site}
+          target="_blank"
         >
           Website
         </a>
@@ -48,6 +50,7 @@ const WatchListReporter = ({ item }) => {
             item.github ? "button button--link" : "button button--link disable"
           }
           href={item.github}
+          target="_blank"
         >
           Github
         </a>
