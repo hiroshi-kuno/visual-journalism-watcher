@@ -5,7 +5,9 @@ const WatchListReporter = ({ item }) => {
     if (item.get_type === "disable") {
       return "watch-status";
     } else {
-      return item.get_status ? "watch-status true" : "watch-status false";
+      return item.get_status === "TRUE"
+        ? "watch-status true"
+        : "watch-status false";
     }
   };
 

@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 export const ContextData = createContext();
 import axios from "axios";
+import { tsvParse } from "d3-dsv";
 
 const initState = {
   isDataLoad: false,
@@ -37,12 +38,15 @@ const AppContext = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("https://storage.googleapis.com/vrw-dataset/reporters.json")
+      .get(
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSAl8EBV4nOwx7whZzcRY2Tr7PMHDw1WXCyE6tmgaMfvbpJK17SL8q1hDTHt2th87j_Ny4ldXOryR-E/pub?gid=1719472370&single=true&output=tsv"
+      )
       .then((response) => {
+        const parse = tsvParse(response.data);
         setFetchReporters({
           done: true,
           isGet: true,
-          data: response.data,
+          data: parse,
         });
       })
       .catch((error) => {
@@ -73,12 +77,15 @@ const AppContext = ({ children }) => {
       });
 
     axios
-      .get("https://storage.googleapis.com/vrw-dataset/sections.json")
+      .get(
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSAl8EBV4nOwx7whZzcRY2Tr7PMHDw1WXCyE6tmgaMfvbpJK17SL8q1hDTHt2th87j_Ny4ldXOryR-E/pub?gid=1982312246&single=true&output=tsv"
+      )
       .then((response) => {
+        const parse = tsvParse(response.data);
         setFetchSections({
           done: true,
           isGet: true,
-          data: response.data,
+          data: parse,
         });
       })
       .catch((error) => {
